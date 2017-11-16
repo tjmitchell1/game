@@ -39,13 +39,18 @@
 						"additions": [],
 						"increases": [
 							{
-								"physical_defense": 2
+								"physical_defense": 70
+							}
+						],
+						"effects": [
+							{
+								"splash_2": 30
 							}
 						]
 					},
 					"level": 1,
 					"rarity": 5,
-					"legendary_effects": [
+					"ability_modifiers": [
 						{
 							"ability": "hammer_strike",
 							"additions": [],
@@ -55,16 +60,6 @@
 								}
 							],
 							"effects": []
-						},
-						{
-							"ability": "general",
-							"additions": [],
-							"increases": [],
-							"effects": [
-								{
-									"splash_2": 30
-								}
-							]
 						}
 					]
 				},
