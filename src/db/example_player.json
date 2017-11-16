@@ -7,17 +7,33 @@
 			"level_plus": 0,
 			"experience": 49,
 			"equipment":{
-				"head": {
-					"name": "basic helmet",
+				"right_weapon": {
+					"name": "long sword",
+					"type": "sword",
 					"stats": {
-						"crit_chance": 0,
-						"physical_dmg_inc": 0,
-						"spell_dmg_inc": 0,
-						"physical_dmg_def": 0,
-						"spell_dmg_def": 0
+						"damage": 15,
+						"critical_chance_increase": 0,
+						"physical_damage_increase": 0,
+						"spell_damage_increase": 0,
+						"physical_defense": 0,
+						"spell_defense": 0
 					},
 					"level": 1,
-					"rarity": 1
+					"rarity": 0
+				},
+				"left_weapon": {},
+				"head": {
+					"name": "basic helmet",
+					"type": "head",
+					"stats": {
+						"critical_chance_increase": 0,
+						"physical_damage_increase": 0,
+						"spell_damage_increase": 0,
+						"physical_defense": 2,
+						"spell_defense": 0
+					},
+					"level": 1,
+					"rarity": 0
 				},
 				"torso": {},
 				"pants": {},
@@ -35,6 +51,7 @@
 	],
 	"pack": {
 		"max_size": 16,
+		"gold": 112002,
 		"consumables": [],
 		"equipment": []
 	}
