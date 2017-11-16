@@ -1,0 +1,66 @@
+Base Stats:
+Strength: Physical Potency by 10%, Physical Reduction by 5%
+Agility: Damage Potency by 5%, Evasion by 10%
+Intelligence: Magical Potency by 20%, Magical Reduction by 10%
+Speed: Increases the amount of turn meter gained per action done by other characters
+
+All stat increases are percentage based
+All additions are direct stat changes
+
+All additions occur BEFORE increases
+
+All additions and reductions are FLOORED instead of rounded.
+
+All character level stat changes occur before ability level stat changes.
+
+Advanced Stats:
+Critical Chance
+Critical Potency
+Evasion
+Block Chance
+Block Potency
+Damage Potency
+Physical Potency
+Spell Potency
+Physical Defense
+Spell Defense
+
+Ability Effects:
+Life steal - Damage heals the caster for X% of damage done before reductions
+Bleeding - Physical Damage over time
+Poisoning - Magic Damage over time
+Splash - 100% damage is done to the main target, each enemy to the sides recieve X% of the main enemy's damage 
+Splash 2 - 100% damage is done to the main target, each enemy to the sides recieve X% of the main target's damage, 
+           each enemy to the side of them recieve X% of the damage dealt to the secondary enemy
+Replicate - 100% of the damage is done to the main target and to each enemy directly on both sides
+Replicate 2 - 100% of the damage is done to the main target and to 2 enemies on both sides
+Area of Effect - X% of the damage is dealt to all enemies, no longer targets
+
+Status Effects:
+Shroud: Untargettable, breaks on abilities/attacks
+Poisoned: Taking Magical damage over time (does not adhere to defenses), stacks with other poisons
+Bleeding: Taking Physical damage over time (does not adhere to defenses), stacks with other bleeds
+Silenced: Cannot activate abilities
+Blinded: Reduced Chance to hit
+Haste: Increased speed
+Slow: Decreased speed
+Broken: Decreased physical damage defense
+Spellmarked: Decreased magical defense
+Amplified: Decrease all defenses 
+Enrage: Increase physical damage
+Focus: Increase magical damage
+Heroism: Increase damage
+Clumsy: Physical damage abilities/attacks have a chance to deal damage to the user, and a chance to cause that abilities effects
+Backfire: Magical damage abilities/attacks have a chance to deal damage to the user, and a chance to cause that abilities effects
+
+What is targetting?
+A unit must be targeted by most abilities/attacks (not AOE or splash or replicate damage).
+If a unit is shrouded they cannot be targetted by abilities.
+If all enemies are shrouded, and your unit does not have any non-targeting abilities, your unit may either pass turn, brace, run(if NPC battle), or use a consumable for its turn.
+
+What is bracing?
+Bracing takes a turn to decrease all damage taken until that units next turn by 50% after all other reductions to the damage.
+When Bracing, your speed is reduced by 25%.
+Healing recieved by abilities (not consumables) is increased by 25%.
+Counter Attacks are disabled during bracing.
+Useful to survive a suspected large AOE/Splash/Replicated attack and wait for a healer type character to heal the bracing character.

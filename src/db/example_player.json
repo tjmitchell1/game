@@ -1,44 +1,77 @@
 {
-	"user_id": "Botulinus",
+	"user_id": "3f1d8dc8-0cef-4a5c-8183-036b9df75eac",
+	"user_name": "Botulinus",
 	"character_list": [
 		{
+			"id": "03a94298-1854-42c7-927c-dee281dde954",
 			"name": "botulinus",
 			"level": 13,
 			"level_plus": 0,
 			"experience": 49,
-			"equipment":{
+			"equipment": {
 				"right_weapon": {
+					"weapon_id": "long_sword",
 					"name": "long sword",
 					"type": "sword",
+					"hands": 1,
 					"stats": {
-						"damage": 15,
-						"critical_chance_increase": 0,
-						"physical_damage_increase": 0,
-						"spell_damage_increase": 0,
-						"physical_defense": 0,
-						"spell_defense": 0
+						"additions": [
+							{
+								"physical_potency": 15
+							}
+						],
+						"increases": [
+							{
+								"critical_chance": 40
+							}
+						]
 					},
 					"level": 1,
-					"rarity": 0
+					"rarity": 0,
+					"legendary_effects": []
 				},
 				"left_weapon": {},
 				"head": {
-					"name": "basic helmet",
+					"armor_id": "legendary_helmet_1",
+					"name": "legendary helmet",
 					"type": "head",
 					"stats": {
-						"critical_chance_increase": 0,
-						"physical_damage_increase": 0,
-						"spell_damage_increase": 0,
-						"physical_defense": 2,
-						"spell_defense": 0
+						"additions": [],
+						"increases": [
+							{
+								"physical_defense": 2
+							}
+						]
 					},
 					"level": 1,
-					"rarity": 0
+					"rarity": 5,
+					"legendary_effects": [
+						{
+							"ability": "hammer_strike",
+							"additions": [],
+							"increases": [
+								{
+									"potency": 70
+								}
+							],
+							"effects": []
+						},
+						{
+							"ability": "general",
+							"additions": [],
+							"increases": [],
+							"effects": [
+								{
+									"splash_2": 30
+								}
+							]
+						}
+					]
 				},
 				"torso": {},
 				"pants": {},
 				"boots": {},
-				"relic": {}
+				"unique": {}
 			},
 			"stats": {
 				"strength": 11,
@@ -46,6 +79,16 @@
 				"dexterity": 0,
 				"speed": 3
 			},
+			"abilities": [
+				{
+					"ability_id": "hammer_strike",
+					"ability_name": "Monsterous Hammer Slammer",
+					"type": "physical",
+					"potency": 20,
+					"critical_strike_potency_increase": 50,
+					"critical_chance_addition": 5
+				}
+			],
 			"miscellaneous": []
 		}
 	],
@@ -53,6 +96,7 @@
 		"max_size": 16,
 		"gold": 112002,
 		"consumables": [],
-		"equipment": []
+		"equipment": [],
+		"key_items": []
 	}
 }
